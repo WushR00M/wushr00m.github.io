@@ -102,6 +102,8 @@ body {
   max-width:		800px;
   margin:			25px auto;
   flex-wrap: 		wrap;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 #content{ 
@@ -181,4 +183,8 @@ input {
 h2.consign {
 	text-align: 	center;
 	height:			48px;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
