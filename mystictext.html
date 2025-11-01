@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<!-- Page setup -->
+		  <meta charset="utf-8">
+		  <title>Redirecting...</title>
+		  <meta name="description" content="We're WushR00M Studios!">
+		  <meta name="author" content="WushR00M Studios">
+		  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+		  <link rel="icon" type="image/ico" href="../assets/favicon.ico">
+	</head>
+  
+	<body>
+		<script>
+			  const urls = [
+				"https://cat-bounce.com/",
+				"https://paint.toys/calligram/",
+				"https://puginarug.com/",
+				"https://orteil.dashnet.org/cookieclicker/",
+				"https://musiclab.chromeexperiments.com/Experiments"
+			  ];
+
+			  // Generate a random index within the bounds of the array
+			  const randomIndex = Math.floor(Math.random() * urls.length);
+
+			  // Get the random URL
+			  const randomUrl = urls[randomIndex];
+
+			  // Redirect the user to the random URL
+			  window.location.href = randomUrl;
+		</script>
+	</body>
+</html>
