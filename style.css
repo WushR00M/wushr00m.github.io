@@ -302,3 +302,8 @@ img.blogpost3 {
 p.blogpost4 {
 	mask-image: linear-gradient(to bottom, black 0%, transparent 95%);
 }
+
+.logo {
+	max-width: 437px;
+  	height: auto;
+}
