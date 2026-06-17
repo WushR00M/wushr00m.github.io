@@ -3,8 +3,10 @@
   <head>
     <!-- Page setup -->
     <meta charset="utf-8">
-    <title>WushR00M Studios</title>
-    <meta name="description" content="We're WushR00M Studios!">
+    <title>Sunrise - WushR00M Studios</title>
+    <meta name="description" content=
+	"Sunrise: Chapter 1, releases on September 10, 2026, on Steam & itch.io"
+	>
     <meta name="author" content="WushR00M Studios">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
     <link rel="icon" type="image/ico" href="./assets/favicon.ico">
@@ -17,7 +19,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
    
     <!-- Custom styles -->
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="sunrise_style.css" rel="stylesheet" type="text/css" />
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
@@ -29,104 +31,197 @@
   </head>
   
   <body>
-    <div id="container">
-      <div class="inner">
-        <div id="content"> 
-          
-		  <h1>Sunrise</h1>
-      
-			  <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
-			  <ul class="main-menu">
-				<li><a href="#details">details</a></li>
-				<!-- <li><a href="https://www.kickstarter.com/">kickstarter</a></li> -->
-				<li><a href="#store">store page</a></li>
-			  </ul>   
+	
+	<br>
+  
+	<h1>S u n r i s e</h1>
+	<h3 id="title">Chapter 1</h3>
+	<h4>Releases on September 10, 2026*</h4>
+    <p class="countdown" id="demo"></p>
+    <p class="note">* Sunrise: Chapter 1's demo will be available at SAGE 2026 & other platforms the next day</p>
+	
+	<br>
+	
+	<div class="info">
+	<div class=".f_content">
+		<br>
+		<h4>To Be Available on:</h4>
+		<br>
+		<div class="flex-row">
+			<a class="platform" href="https://store.steampowered.com/app/4392380/Sunrise/">
+				<img src="./assets/steam_icon.png" alt="Steam" class="platform-img">
+			</a>
 			
-			<br>
+			<a class="platform" style="background-color: #fa5c5c;" href="https://wrstudios.itch.io/sunrise">
+				<img src="./assets/itchio-textless-white.svg" alt="itch.io" class="platform-img">
+			</a>
 			
-          <div id="details" class="content-region hide">
-            <h1>Welcome to Solaris!</h1>
-            <p>
-            	Sunrise is a multi-genre, primarily 2D platformer hack and slash, featuring the ability to create and share levels you make to the world. On a mysterious day in the land of Solaris, the mayor who has been missing for 4 weeks, returns with the intent of violence, sending shockwaves across the world with a magic device, powerful enough to wipe anything from existence. With this newfound power, he shoots it up at the most important thing, the device powering the artificial sun. Now, with all light gone across the world, it's up to you to retrieve the pieces of the device, put them together, and stop the mayor before there's nothing left...
-            </p>
-			<h2>Create your own levels!</h2>
-			  <p>The Sunrise Editor allows you to create levels using the same tools we use to make our built-in story levels! Go wild and imagine something cool and new, with new features and possibilities being added almost every update.</p>
-            <h2>What's Included?</h2>
-			<p>
-                   Working Level / Small Game Creator + Editor</p><p>
-    			A Unique Intense and Calming at the same time Soundtrack</p><p>
-   				 Interesting Lineup of Characters</p><p>
-    			The feeling that some things don't feel right...
-			</p>
-          </div>
+			<!--
+			<a class="platform" style="background-color: red;">
+				<img src="./assets/switch2.png" alt="Nintendo Switch 2" class="platform-img">
+			</a>
+			
+			<a class="platform" style="background-color: red;">
+				<img src="./assets/eshop_logo.png" alt="Nintendo Switch" class="platform-img">
+			</a>
+			
+			<a class="platform" style="background-color: rgb(21, 93, 252);">
+				<img src="./assets/playstation_logo.png" alt="PlayStation 5" class="platform-img">
+			</a>
+			
+			<a class="platform" style="background-color: #197b1a;">
+				<img src="./assets/xbox_logo.png" alt="Xbox Family" class="platform-img">
+			</a>
+			--!>
+			
 		
-			<div id="store" class="content-region hide">
-				<h1>Download Sunrise Client</h1>
-				
-				<h2>Minimum Requirements</h2>
-				<p>
-					    OS: Windows 10</p><p>
-						Processor: 1.2GHz processor</p><p>
-						Memory: 2 GB RAM</p><p>
-						Graphics: 256MB (Onboard VGA))</p><p>
-						DirectX: Version 11</p><p>
-						Storage: 512 MB</p><p>
-				</p>
-				
-				<h2>Recommended Hardware</h2>
-				<p>
-					    OS: Windows 10 / 11</p><p>
-						Processor: Intel / AMD Quad-Core CPUs (x64)</p><p>
-						Memory: 4 GB RAM</p><p>
-						Graphics: 512MB (GLSL Compliant (Intel / NVIDIA))</p><p>
-						DirectX: Version 11</p><p>
-						Storage: 1 GB</p><p>
-				</p>
-				<hr>
-				<h2>Disclaimer:</h2>
-				<p>Online features that are currently or will be featured in Sunrise are currently restricted access for those residing in California, Colorado, The United Kingdom, and Brazil, to avoid fines for not including age verification. We refuse to include age verification in our game and we hope you understand!</p>
-				<hr>
-				
-				<h2>Latest Version: v2026.4.4</h2>
-				<div id="blogpost">				
-					<h3>Platforms</h3>
-					<a href="https://store.steampowered.com/app/4392380/Sunrise/">
-						<button class="download"><img src="./assets/steam_icon.png" width="24" height="24">Wishlist on Steam</button>
-					</a>
-						
-					<a href="https://wrstudios.itch.io/sunrise">
-						<button class="download"><img src="./assets/itchio_logo.png" width="24" height="24">Get on itch.io</button>
-					</a>
-
-					<!-- 
-					<a href="./blog/4-year-anniversary.html">
-						<button class="download"><img src="./assets/googleplay_logo.png" width="24" height="24">Install on Google Play</button>
-					</a>
-					-->
-					
-						<br>
-					
-				</div>
-				
-				<hr>
-            	
-          </div>
-		  
-		  <br>
+		<br>
+		</div>
+		<br>
+		<p class="note">Sunrise is available for purchase on Steam and itch.io, however, you will not recieve any Chapter 1 content until the free v2026.5.0 update is released.</p>
+		
+		
+		<hr>
+			<br>
+			<br>
+			<h4>What is this game?</h4>
+			<h5>WELCOME TO SOLARIS</h5>
+			<p class="p_info">
+				Sunrise is a multi-genre, primarily 2D platformer high-speed hack and slash, featuring the ability to create and share levels you make to the world. 
+			</p>
+			<br>
+			<h5>PICK UP THE PACE</h5>
+			<p class="p_info">
+				On a mysterious day in the land of Solaris, the mayor who has been missing for 4 weeks, returns with the intent of violence, sending shockwaves across the world with a magic device, powerful enough to wipe anything from existence. With this newfound power, he shoots it up at the most important thing, the device powering the artificial sun. Now, with all light gone across the world, it's up to you, Dash, a naive robot and his 3 friends to retrieve the pieces of the device, put them together, and stop the mayor before there's nothing left. 
+			</p>
+			<br>
+			<h5>IMAGINATION STATION</h5>
+			<p class="p_info">
+				The Sunrise Editor allows you to create levels using the same tools we use to make our built-in story levels! Go wild and imagine something cool and new, with new features and possibilities being added almost every update.
+			</p>
 			
+			<h5>THE OVERVIEW</h5>
+			<p class="p_info">
+				Currently included features in Sunrise are:
+				<ul>
+					<li>The Sunrise Editor + Steam Workshop Support* & Playable Custom Levels</li>
+					<li>1 Playable Character (Dash), and his high-speed move-set</li>
+					<li>The Finish Line, Springpads, Boost Orbs, and more mechanics</li>
+					<li>Chapter 1 in its entirety, including intro and ending cutscenes and 5 packed levels</li>
+					<li>Complete Soundtrack Unique to Everything In-Game</li>
+					<li>The feeling that some things don't feel right...</li>
+				</ul>
+				
+				<p class="p_info">...but, features coming soon to Sunrise include:</p>
+				<ul>
+					<li>Online Play & Level Downloads / Uploads</li>
+					<li>A Finished Story Mode with 5 Total Chapters</li>
+					<li>The Shop, Upgrade Cards, and Booster Packs</li>
+					<li>...and more planned...</li>
+				</ul>
+			</p>
+			
+			<hr>
+			<h4>System Requirements - PC</h4>
+			<table style="border: none; border-collapse: collapse; width: 100%;">
+			  <tr>
+				<td style="border: none; padding: 10px;">
+					<h5>Minimum:</h5>
+					<ul>
+						<li>Requires a 64-bit processor and operating system</li>
+						<li>OS: Windows 10 / Ubuntu 16*</li>
+						<li>1.2GHz Processor</li>
+						<li>4 GB RAM</li>
+						<li>256MB video memory (Onboard VGA)</li>
+						<li>DirectX Version 11</li>
+						<li>512 MB available storage space</li>
+					</ul>
+				</td>
+				<td style="border: none; padding: 10px;">
+					<h5>Recommended:</h5>
+					<ul>
+						<li>Requires a 64-bit processor and operating system</li>
+						<li>OS: Windows 11 / Ubuntu 22.04*</li>
+						<li>Intel / AMD Quad-Core CPUs (x64)</li>
+						<li>8 GB RAM</li>
+						<li>512MB video memory (GLSL Compliant)</li>
+						<li>DirectX Version 11</li>
+						<li>1 GB available storage space</li>
+					</ul>
+				</td>
+			  </tr>
+			</table>
+			
+			<p class="note">Steam Workshop Support is exclusive to the Steam version only, and online level sharing and downloading capabilities are coming to non-Steam platforms in Beta.</p>
+			<p class="note">Ubuntu is the only Linux distro to be measured for support by GameMaker themselves. Support may vary based on Linux distro and distro version.</p>
+	<br>
+	<hr>
+	
+	<div class="foot">
+		<div class="f_content">
+			<br>
+			<br>
 			<a href="tos.html">Terms of Service</a>
 			<br>
 			<a href="privacy.html">Privacy Policy</a>
-			   
-			<p>© 2024 - 2026 WushR00M Studios</p>
-			<p>Website Revision: 0.5.1 (1.19.2026)</p>
-		  
-			</div>
-      </div>
-    </div>
+				   
+			<p class="p_info">© WushR00M Studios</p>
+			<br>
+			<p class="note">Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.</p>
+			<p class="note">"PlayStation" and the "PS" Family logo are registered trademarks and "PS5" is a trademark of Sony Interactive Entertainment LLC.</p>
+			<p class="note">"Xbox is a registered trademark of the Microsoft Corporation in the United States and/or other countries.</p>
+			<p class="note">"Nintendo Switch™" is a trademark of Nintendo.</p>
+			<br>
+			<p class="note">Content Warning: Language, Animated Blood, Fantasy Violence, Suggestive Themes, Simulated Gambling</p>
+			<p class="note">Sunrise is intended for users aged 14+.</p>
+			<br>
+			<br>
+			<br>
+		</div>
+	</div>
     
     <!-- Load additional JS scripts here -->
     <script type="text/javascript" src="script.js"></script>
-    
+    <!-- Display the countdown timer in an element -->
+	<script>
+	// Set the date we're counting down to
+	var countDownDate = new Date("September 10, 2026 17:00:00").getTime();
+
+	// Update the count down every 1 second
+	var x = setInterval(function() {
+
+	  // Get today's date and time
+	  var now = new Date().getTime();
+
+	  // Find the distance between now and the count down date
+	  var distance = countDownDate - now;
+
+	  // Time calculations for days, hours, minutes and seconds
+	  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+	  // Display the result in the element with id="demo"
+	  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+	  + minutes + "m " + seconds + "s ";
+
+	  // If the count down is finished, write some text
+	  if (distance < 0) {
+		clearInterval(x);
+		document.getElementById("demo").innerHTML = "...eventually.";
+	  }
+	}, 1000);
+	
+	// When the user scrolls the page, execute myFunction
+	window.onscroll = function() {myFunction()};
+
+	function myFunction() {
+	  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+	  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+	  var scrolled = (winScroll / height) * 100;
+	  document.getElementById("myBar").style.width = scrolled + "%";
+	} 
+	</script>
   </body>
 </html>
