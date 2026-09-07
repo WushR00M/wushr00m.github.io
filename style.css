@@ -115,7 +115,7 @@ html::-webkit-scrollbar {
 }
 
 #content{ 
-  backdrop-filter: 	blur(25px);
+  backdrop-filter: 	blur(48px);
   border-style:		solid;
   border-color:		rgba(0, 0, 0, .5);
   padding:			25px;
@@ -125,7 +125,7 @@ html::-webkit-scrollbar {
   width:			100%;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, .25);
+  background-color: rgba(0, 0, 0, .5);
 }
 
 /* Menu Links */
