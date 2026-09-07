@@ -97,9 +97,7 @@ blockquote p:last-child {
 
 /* Full size background image */
 html {
-  background: #cc6262;
-	background: radial-gradient(circle, rgba(204, 98, 98, 1) 0%, rgba(6, 10, 28, 1) 100%);
-  background-size:	cover;
+  background-color: black;
   flex-wrap: 		wrap;
 	-ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
@@ -126,6 +124,7 @@ html::-webkit-scrollbar {
 	display: grid;
   justify-content: center;
   align-items: center;
+	text-align: center;
   background-color: rgba(0, 0, 0, .5);
 }
 
