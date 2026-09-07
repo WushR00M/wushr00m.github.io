@@ -62,7 +62,7 @@ h2 {
 
 h4 {
   font-family: ark-pixel; /* use font */
-  font-size: 3.5rem;
+  font-size: 1.5rem;
   margin-bottom: 0px;
   text-align: center;
   display: flex;
@@ -73,7 +73,7 @@ h4 {
 .countdown {
   margin-top: 4px;
   font-family: ark-pixel; /* use font */
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   margin-bottom: 0px;
 }
@@ -81,7 +81,7 @@ h4 {
 p {
   margin-top: 4px;
   font-family: ark-pixel; /* use font */
-  font-size: 2rem;
+  font-size: 1.25rem;
   text-align: center;
 }
 
@@ -162,7 +162,7 @@ p {
 h5 {
 	margin-top: 4px;
 	font-family: ark-pixel; /* use font */
-	font-size: 3rem;
+	font-size: 2rem;
 	text-align: center;
 	margin-bottom: 16px;
 	
@@ -178,7 +178,7 @@ h5 {
 
 .foot {
 	background-color: black;
-	font-size: 2rem;
+	font-size: 1rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -194,12 +194,12 @@ a {
 }
 
 ul {
-	margin-top: 2px;
+	margin-top: 4px;
 	color: yellow;
 	text-align: center;
 	list-style: none;
 	
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 li::before {
