@@ -304,6 +304,7 @@ p.blogpost4 {
 }
 
 .logo {
-	max-width: 437px;
+	width: auto;
   	height: auto;
+	align-content: center;
 }
