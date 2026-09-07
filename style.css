@@ -23,8 +23,8 @@ a {
   text-decoration: 	none; 
   color:			#FFAAAA;
 }
-a:focus {
-  outline: 			thin dotted;
+a:hover {
+	color: #FFFFFF;
 }
 
 small {
@@ -274,10 +274,6 @@ a.rainbow-text {
 div.iconlist {
 	display: flex;
 	align-items: center;
-}
-
-span.social {
-	padding-left: 8px;
 }
 
 #blogpost { 
