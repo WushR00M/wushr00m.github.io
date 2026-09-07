@@ -129,6 +129,10 @@ html::-webkit-scrollbar {
   background-color: rgba(0, 0, 0, .5);
 }
 
+#content br {
+  grid-column: 1 / -1;
+}
+
 /* Menu Links */
 ul.main-menu {
   margin: 			0;
