@@ -96,9 +96,8 @@ blockquote p:last-child {
  */
 
 /* Full size background image */
-html, #container, .inner { background-color:transparent;}
 html {
-  background:		url(./assets/background-performant.png) center center no-repeat fixed;
+  background-color: black;
   background-size:	cover;
   flex-wrap: 		wrap;
 }
