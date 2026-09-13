@@ -75,7 +75,6 @@
 		<br>
 		</div>
 		<br>
-		<p class="note">Sunrise is available for purchase on Steam and itch.io, however, you will not recieve any Chapter 1 content until the free v2026.5.0 update is released.</p>
 		
 		
 		<hr>
@@ -99,11 +98,11 @@
 			
 			<h5>THE OVERVIEW</h5>
 			<p class="p_info">
-				Features in Sunrise v2026.5.0 include:
+				Features in Sunrise include:
 				<ul>
 					<li>Chapter 1 in its entirety, including intro and ending cutscenes and 5 packed levels</li>
 					<li>The Sunrise Editor + Steam Workshop Support* & Playable Custom Levels</li>
-					<li>TONS of Packed-In Secrets and Minigames + "The Summer Villa"</li>
+					<li>TONS of Packed-In Secrets</li>
 					<li>1 Playable Character (Dash), and his high-speed move-set</li>
 					<li>The Finish Line, Springpads, Boost Orbs, and more mechanics</li>
 					<li>Lua "Addons" / Modding Support</li>
@@ -113,7 +112,7 @@
 				
 				<p class="p_info">...but, features coming soon to Sunrise include:</p>
 				<ul>
-					<li>Online Play & Level Downloads / Uploads</li>
+					<li>Local Split-Screen + Online Multiplayer</li>
 					<li>A Finished Story Mode with 5 Total Chapters</li>
 					<li>The Shop, Upgrade Cards, and Booster Packs</li>
 					<li>...and more planned...</li>
@@ -133,7 +132,7 @@
 						<li>4 GB RAM</li>
 						<li>256MB video memory (Onboard VGA)</li>
 						<li>DirectX Version 11</li>
-						<li>512 MB available storage space</li>
+						<li>1 GB available storage space</li>
 					</ul>
 				</td>
 				<td style="border: none; padding: 10px;">
@@ -145,7 +144,7 @@
 						<li>8 GB RAM</li>
 						<li>512MB video memory (GLSL Compliant)</li>
 						<li>DirectX Version 11</li>
-						<li>1 GB available storage space</li>
+						<li>2 GB available storage space</li>
 					</ul>
 				</td>
 			  </tr>
@@ -194,46 +193,6 @@
     
     <!-- Load additional JS scripts here -->
     <script type="text/javascript" src="script.js"></script>
-    <!-- Display the countdown timer in an element -->
-	<script>
-	// Set the date we're counting down to
-	var countDownDate = new Date("September 12, 2026 17:00:00").getTime();
 
-	// Update the count down every 1 second
-	var x = setInterval(function() {
-
-	  // Get today's date and time
-	  var now = new Date().getTime();
-
-	  // Find the distance between now and the count down date
-	  var distance = countDownDate - now;
-
-	  // Time calculations for days, hours, minutes and seconds
-	  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-	  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-	  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-	  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-	  // Display the result in the element with id="demo"
-	  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  	+ minutes + "m " + seconds + "s ";
-
-	  // If the count down is finished, write some text
-	  if (distance < 0) {
-		clearInterval(x);
-		document.getElementById("demo").innerHTML = "...eventually.";
-	  }
-	}, 1000);
-	
-	// When the user scrolls the page, execute myFunction
-	window.onscroll = function() {myFunction()};
-
-	function myFunction() {
-	  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-	  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-	  var scrolled = (winScroll / height) * 100;
-	  document.getElementById("myBar").style.width = scrolled + "%";
-	} 
-	</script>
   </body>
 </html>
